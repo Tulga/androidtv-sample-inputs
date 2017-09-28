@@ -388,7 +388,7 @@ public abstract class BaseTvInputService extends TvInputService {
                     scheduleNextAd();
                     scheduleNextProgram();
                     getTvPlayer().seekTo(mElapsedProgramTime);
-                    onTimeShiftGetCurrentPosition();
+                    //onTimeShiftGetCurrentPosition(); // TODO: enable it on API 23
 
                     // After adjusting necessary elapsed playback times based on new
                     // time shift position, content should not continue to play if previously
